@@ -1,0 +1,27 @@
+# README cards configuration (pedrocatalao/github-cool-readme)
+cards: [summary, languages, contributions, weekly]
+style: classic
+
+include:
+  private: true
+  orgs: true
+
+theme:
+  background: transparent
+  border: false
+  animations: true
+
+summary:
+  ring: github
+
+languages:
+  title: Most used languages
+  count: 6
+
+contributions:
+  title: Notable contributions
+  count: 6
+  includeOpen: true
+
+weekly:
+  title: Weekly rhythm
